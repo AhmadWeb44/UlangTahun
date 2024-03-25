@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.border-container {
+    bottom: -50px;
+    border: 2px solid #333; /* Menambahkan border */
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 50px; /* Menambah panjang border ke bawah */
+    position: relative; 
+    text-align: center;
+    background-color: yellow;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 180px;
+}
+
+.message {
+    margin-top: 20px;
+    display: none; /* Sembunyikan pesan saat halaman dimuat */
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #000;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.center-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 7px;
+    border-radius: 5px;
+    padding: 10px 20px; /* Atur padding untuk membuat tombol lebih besar */
+    font-size: 15px; /* Atur ukuran font */
+    font-weight: bold;
+    background-color: skyblue;
+}
+
+#audio{
+  display: none;
+}
+
+.audio{
+  display: none;
+}
